@@ -16,6 +16,7 @@ class _NotePageState extends State<NotePage> {
   final contentController = TextEditingController();
   final authorController = TextEditingController();
 
+  @override
   void initState() {
     super.initState();
     if (widget.note != null) {

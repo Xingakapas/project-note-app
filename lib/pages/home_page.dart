@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 
 // import '../models/note_model.dart';
 import '../widgets/note_card.dart';
-import '../widgets/confirm_dialog.dart';
 
 class HomePage extends StatefulWidget {
   final VoidCallback onToggleTheme;
